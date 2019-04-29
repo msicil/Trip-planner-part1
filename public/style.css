@@ -1,12 +1,24 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
-    margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #C1B5AD;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #c1b5ad;
 }
 #map {
-    height: 100vh;
-    width: 100vw;
-  }
+	display: flex;
+	flex: 3;
+	height: 100vh;
+	width: 100vw;
+}
+
+#container {
+	display: flex;
+}
+
+#sidebar {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
